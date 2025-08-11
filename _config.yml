@@ -1,0 +1,34 @@
+title: "Copper Ridge Strategies"
+description: "Strategic consulting for clear plans, clean data, and consistent execution."
+url: "https://www.copperridgestrategies.com"   # your custom domain (we’ll connect it in step 5)
+baseurl: ""                                     # empty for user site
+theme: null
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+# Appearance
+minimal_mistakes_skin: "mint"  # try: default, air, aqua, contrast, dark, dirt, neon, sunrise, etc.
+logo: /assets/images/logo.png  # upload later; safe to leave as-is for now
+
+# Navigation
+header:
+  nav:
+    - title: "Services"
+      url: /services/
+    - title: "About"
+      url: /about/
+    - title: "Contact"
+      url: /contact/
+
+# Author / footer
+author:
+  name: "Copper Ridge Strategies"
+  location: "Gilbert, Arizona"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:info@copperridgestrategies.com"
+
+# Plugins supported on GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
